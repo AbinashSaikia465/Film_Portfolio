@@ -22,13 +22,13 @@ const ContactSection = () => {
             </p>
 
             <div className="flex justify-center lg:justify-start gap-8">
-              <motion.a whileHover={{ y: -5, color: '#d4af37' }} href="#" className="text-white/50 transition-colors">
+              <motion.a whileHover={{ y: -5, color: '#d4af37' }} href="https://www.instagram.com/abi_nashh_/" target="_blank" rel="noopener noreferrer" className="text-white/50 transition-colors">
                 <Instagram size={24} />
               </motion.a>
-              <motion.a whileHover={{ y: -5, color: '#d4af37' }} href="#" className="text-white/50 transition-colors">
+              <motion.a whileHover={{ y: -5, color: '#d4af37' }} href="https://www.youtube.com/@DRIFTHUE465" target="_blank" rel="noopener noreferrer" className="text-white/50 transition-colors">
                 <Youtube size={24} />
               </motion.a>
-              <motion.a whileHover={{ y: -5, color: '#d4af37' }} href="#" className="text-white/50 transition-colors">
+              <motion.a whileHover={{ y: -5, color: '#d4af37' }} href="mailto:saikiaabinash465@gmail.com" className="text-white/50 transition-colors">
                 <Mail size={24} />
               </motion.a>
             </div>
