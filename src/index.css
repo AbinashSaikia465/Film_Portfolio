@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-cinema-black text-gray-100 overflow-x-hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.cinematic-gradient {
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8), #050505);
+}
+
+.noise-overlay {
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-cinema-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-800 rounded-full hover:bg-gray-700 transition-colors;
+}
