@@ -37,6 +37,7 @@ const ProjectCard = ({ project, index }) => {
           src={project.video}
           loop
           muted
+          autoPlay
           playsInline
           className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 grayscale-[0.5] group-hover:grayscale-0"
         />

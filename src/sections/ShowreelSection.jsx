@@ -50,6 +50,7 @@ const ShowreelSection = () => {
             src="/videos/koka-aru-nati.mov"
             loop
             muted
+            autoPlay
             playsInline
             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-60 grayscale-[0.3] group-hover:grayscale-0 group-hover:opacity-100"
           />
