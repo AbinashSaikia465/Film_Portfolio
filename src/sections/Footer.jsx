@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           
           <div className="text-[10px] tracking-[0.4em] uppercase text-gray-500 text-center md:text-left">
-            © 2024 Abinash Saikia | All Rights Reserved
+            © 2026 Abinash Saikia | All Rights Reserved
           </div>
 
           <div className="flex items-center gap-8">
